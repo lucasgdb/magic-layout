@@ -1,5 +1,5 @@
 import { Suspense, lazy } from "react";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 const MainPage = lazy(() =>
   import("../pages/MainPage/MainPage").then((module) => ({
